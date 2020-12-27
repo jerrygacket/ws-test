@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="512404e1-5915-4241-acb7-585bc42b5cad" name="winestyle">
+        <fileTransfer rootFolder="/var/www/winestyle" accessType="SFTP" host="212.80.216.79" port="2045" sshConfigId="8520997e-2120-4e5f-82d6-38488ffdd52f" sshConfig="user@212.80.216.79:2045 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
