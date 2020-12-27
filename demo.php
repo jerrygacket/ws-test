@@ -15,9 +15,9 @@ if (isset($_REQUEST['img'])) {
             continue;
         }
         $result .= '
-            <li class="'.($sizeName == 'big' ? 'd-none d-sm-block' : ($sizeName == 'mic' ? 'd-sm-none' : '')).'">
+            <li>
                 <a href="cache/'.$_REQUEST['img'].'/'.$sizeName.'/'.$_REQUEST['img'].'.jpg">
-                    <img class="'.($sizeName == 'big' ? 'd-none d-sm-block' : ($sizeName == 'mic' ? 'd-sm-none' : '')).'" src="generator.php?name='.$_REQUEST['img'].'&size=mic" alt="'.$_REQUEST['img'].'">
+                    <img src="generator.php?name='.$_REQUEST['img'].'&size=mic" alt="'.$_REQUEST['img'].'">
                 </a>
             </li>
             ';
